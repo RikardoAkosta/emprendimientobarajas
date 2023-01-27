@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className="flex items-center justify-beetween xl:justify-start w-full py-4 px-8 h-[15vh] z-50">
       <div className="xk:w-1/4  text-center -mt-4">
-        <a href="#" className="text-2xl font-bold relative p-1 bg-white">
-          Tu ayuda Espiritual <span className="text-primary  text-4xl">.</span>{" "}
+        <a href="#" className="flex text-2xl font-bold relative p-1 bg-white">
+        Your spiritual help <span className="text-primary  text-4xl">.</span>{" "}
           <RiBlazeFill className=" absolute -left-3 -bottom-5 text-primary -z-10" />
         </a>
       </div>
@@ -30,7 +30,7 @@ const Header = () => {
           Products
         </a>
       </nav>
-      <button onClick={() => setShowMenu(!showMenu)} className="xl:hidden text-3xl p-9">
+      <button onClick={() => setShowMenu(!showMenu)} className="xl:hidden text-3xl p-14">
         {showMenu ? <RiCloseLine/> : <RiAlignJustify/>}
         
       </button>
