@@ -3,7 +3,7 @@ import { RiCheckboxBlankCircleFill, RiPlayFill } from "react-icons/ri";
 
 const Hero = () => {
   return (
-    <section className="h-[85vh] grid grid-cols-1 md:grid-cols-8">
+    <section className="min-h-[85vh] grid grid-cols-1 md:grid-cols-8">
       {/* Informacion */}
       <div className="md:col-span-5 flex items-center justify-center p-12">
         <div className="flex flex-col gap-8">
